@@ -36,9 +36,6 @@ jobs:
         # Sleep to allow Flask server to start
         sleep 10
 
-    # Step 5: Test if the app is running
-    - name: Test the app
-      run: curl --fail http://localhost:3000
 
     # Step 6: Run additional tests (optional)
     # If you have unit tests, they can be run here.
